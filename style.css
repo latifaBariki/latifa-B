@@ -512,56 +512,7 @@
   }
 
 
-  @media (max-width: 992px) {
-    body .hebergement_line {
-      flex-wrap: wrap;
-    }
-  
-    .section-hebergement {
-      width: 100%;
-    }
-  
-    .section-hebergement .det {
-      height: 200px;
-    }
-  
-    .section-populaire {
-      height: auto;
-      width: auto;
-    }
-  
-    .section-populaire .det2 {
-      width: 30%;
-      height: 160px;
-    }
-  
-    .details {
-      display: flex;
-      margin: 10px;
-    }
-  
-    .section-populaire p {
-      margin-bottom: 10px;
-      font-size: 14px;
-    }
-  
-    .det2 .stars {
-      margin-top: auto;
-      margin-bottom: 15px;
-      font-size: 14px;
-    }
-  
-    footer .info1 {
-      margin-right: 90px;
-    }
-  
-    footer .info2 {
-      margin-right: 150px;
-    }
-  
-  }
-  
-  
+ 
   
   
   
