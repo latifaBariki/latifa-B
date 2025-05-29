@@ -1,10 +1,13 @@
+
 *
  {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+  font-family: "Raleway", sans-serif;
 
+}
+@media (max-width: 1400px){
 
 .flexible {
     display: flex;
@@ -196,7 +199,7 @@
 
   .hebergement-line {
     gap: 30px;
-    width: 95%;
+    width: 100%;
     margin-bottom: 10px;
   }
   
@@ -511,9 +514,68 @@
     margin-top: 10px;
   }
 
+}
 
+@media (max-width: 1024px){
+  
+  .flexible {
+    display: flex;
+  }
+  
+  .wrp {
+    flex-wrap: wrap;
+  }
+
+  .section-hebergement{
+    flex-direction: column;
+    width: 100%;
+  }
+  .section-populaire
+  {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+  .hebergement-line{
+    flex-wrap: wrap;
+  }
+  
+  .section-hebergement h4{
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+  .section-hebergement p {
+    font-size: 13px;
+  }
+  .section-hebergement .stars{
+    font-size: 14px;
+    margin-top: auto;
+  }
+  .dets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  .logo{
+    margin-right: 40%;
+  }
+
+  .det2{
+    width: 30%;
+  }
+  .det2-right h4  {
+    font-size: 14px;
+  }
+  .det2-right p {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  .det2-right .stars{
+    font-size: 14px;
+    margin-top: auto;
+  }
  
-  
-  
-  
-  
+}
